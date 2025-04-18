@@ -67,8 +67,7 @@
     <div class="flex flex-col items-center p-4">
       <img id="imageDisplay" src="./images/image1.gif" alt="Cute kitten with flowers" class="rounded-md h-[300px]"
         style="object-fit: cover;" />
-      <h2 id="valentineQuestion" class="text-4xl font-bold italic text-[#bd1e59] my-4 text-center">Will you be my
-        Valentine?</h2>
+      <h2 id="valentineQuestion" class="text-4xl font-bold italic text-[#bd1e59] my-4 text-center">will u send me kiss in voice note??</h2>
       <div class="flex gap-4 pt-[20px] items-center" id="responseButtons">
         <button id="yesButton"
           class="bounce2 inline-flex items-center justify-center whitespace-nowrap rounded-xl text-[20px] font-medium disabled:pointer-events-none disabled:opacity-50 hover:bg-green-400 min-h-12 min-w-[75px] px-4 py-2 bg-green-500 text-white transition ">
@@ -83,8 +82,8 @@
   </div>
 
   <div id="copy">
-    <p class="text-center text-white text-sm">OG Creator <a
-        href="https://www.instagram.com/aoudumber.dev/reels/#">@aoudumber.dev</a></p>
+    <p class="text-center text-white text-sm">Shvm x buggu <a
+        href="https://www.instagram.com/aoudumber.dev/reels/#">@shiv4m7</a></p>
   </div>
 
   <script type="module">
@@ -120,14 +119,14 @@
         yesButton.style.width = `${buttonWidth}px`;
         yesButton.style.fontSize = `${fontSize}px`; // Update font size
         if (noClickCount < 6) {
-          noButton.textContent = ["No", "Are you sure?", "Pookie please", "Don't do this to me :(", "You're breaking my heart", "I'm gonna cry..."][noClickCount];
+          noButton.textContent = ["No", "Are you sure?", "Pookie please", "Please dedo:(", "please babu", "nahi degi toh rone lagunga"][noClickCount];
         }
       }
     });
 
     yesButton.addEventListener('click', () => {
       imageDisplay.src = './images/image7.gif'; // Change to image7.gif
-      valentineQuestion.textContent = "Yayyyy! You clicked YES? grat i love ur kisses 😂"; // Change the question text
+      valentineQuestion.textContent = "Yayyyy! You clicked YES? great i love buggu 😂"; // Change the question text
       responseButtons.style.display = 'none'; // Hide both buttons
       confetti(); // Trigger confetti animation
     });
